@@ -1,0 +1,69 @@
+body {
+	
+	background-image: url(../Imagenes/aaa.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	transition: all .3s;
+}
+body::after{
+	content: '';
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top: -100vw;
+	left: 0;
+	background: #fff;
+	transition: all .3s;
+}
+
+h1 {
+	color:  white;
+}
+
+span {
+	color: white;
+}
+
+.bg {
+	text-align: center;
+	padding: 30px;
+	background-color: #d6d6c2;
+}
+
+table {
+	width: 30vw;
+	position: absolute;
+	left: 35vw;
+	right:  35vw;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(59, 150, 254, 0.3);
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #cc0099;
+
+}
+
+
+.br-tr {
+	
+	border: 1px solid #cc0099;
+	box-shadow: 2px 2px 2px #cc0099;
+	padding-top: 10px;
+}
+
+table tr td {
+	
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	box-shadow: 2px 2px 2px #cc0099;
+}
+
+.loading::after{
+	top: 0;
+}
+
